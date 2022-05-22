@@ -6,7 +6,7 @@
 - [Description](#description)
 - [Technologies Used](#technology)
 - [Usage](#instructions)
-- [Questions](#questions)
+- [Contact](#contact)
 
 ## License
 
@@ -14,7 +14,7 @@
 
 ## Description
 
-This is a full stack web application that uses MongoDB on the back end, React on the front end, and utilizing Typescript for the entire application.
+This is a full stack Typescript application that uses MongoDB on the back end and React on the front end.
 
 ## Technology
 
@@ -29,9 +29,8 @@ This is a full stack web application that uses MongoDB on the back end, React on
 
 Users can use the registration link to create an account, and then can log in to the application with their new accounts.
 
-## Questions
+## Contact
 
-Contact me: <br>
 Github: [PrismaticDevs](https://github.com/PrismaticDevs) <br>
 Email: matthewbrignola@gmail.com <br>
 Phone: 719-351-5828 <br>
