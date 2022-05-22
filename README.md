@@ -20,6 +20,7 @@ This is a full stack web application that uses MongoDB on the back end, React on
 
 <ul>
     <li>Typescript</li>
+    <li>Express.js</li>
     <li>MongoDB & Mongoose</li>
 </ul>
 
