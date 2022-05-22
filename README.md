@@ -21,7 +21,8 @@ This is a full stack web application that uses MongoDB on the back end, React on
 <ul>
     <li>Typescript</li>
     <li>Express</li>
-    <li>MongoDB & Mongoose</li>
+    <li>MySQL</li>
+    <li>Sequelize</li>
 </ul>
 
 ## Usage
@@ -30,7 +31,7 @@ Users can use the registration link to create an account, and then can log in to
 
 ## Questions
 
-Contact me:
+Contact me: <br>
 Github: [PrismaticDevs](https://github.com/PrismaticDevs) <br>
 Email: matthewbrignola@gmail.com <br>
 Phone: 719-351-5828 <br>
