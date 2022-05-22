@@ -4,6 +4,7 @@
 
 - [License](#license)
 - [Description](#description)
+- [Technologies Used](#technology)
 - [Usage](#instructions)
 - [Questions](#questions)
 
@@ -14,6 +15,13 @@
 ## Description
 
 This is a full stack web application that uses MongoDB on the back end, React on the front end, and utilizing Typescript for the entire application.
+
+## Technology
+
+<ul>
+    <li>Typescript</li>
+    <li>MongoDB & Mongoose</li>
+</ul>
 
 ## Usage
 
