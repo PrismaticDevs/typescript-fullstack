@@ -1,80 +1,23 @@
-let email: string = "Matthew Brignola";
-let age: number = 29;
-let isDeveloper: boolean = true;
-let x: any = "blah";
-x = false;
-let ids: number[] = [1, 2, 3, 4, 5];
+import { log } from "console";
+import express, { Application, Request, Response } from "express";
+import bodyParser from "body-parser";
+import { TaskController } from "./controller/task-controller";
+import { Task } from "./model/task";
 
-// Tuple
-let person: [number, string, boolean] = [1, "two", false];
+const PORT = 3001;
+const app: Application = express();
+app.use(bodyParser.urlencoded({ extended: false }));
 
-// Union
-let id: string | number;
-id = "blah";
-id = 7;
+const taskController: TaskController = new TaskController();
 
-// Enum
-enum D1 {
-  up,
-  down,
-  left,
-  right,
-}
+app.get("/", (req: Request, res: Response) => {
+  return res.send(taskController.tasks);
+});
 
-// Object
-type User = {
-  id: number;
-  name: string;
-};
-const user: User = {
-  id: 1,
-  name: "Hi",
-};
+app.post("/", (req: Request, res: Response) => {
+  const { name, completed } = req.body;
+  const task: Task = taskController.createTask(name, completed);
+  return res.send(task);
+});
 
-// Type assertion
-let cid: any = 1;
-// let customerId = <number>cid;
-let customerId = cid as number;
-
-// Functions
-function add(x: number, y: number): number {
-  return x + y;
-}
-
-// Interfaces
-interface UserInterface {
-  readonly id: number;
-  name: string;
-}
-const user1: UserInterface = {
-  id: 1,
-  name: "Hi",
-};
-
-interface MathF {
-  (x: number, y: number): number;
-}
-
-const addFunc: MathF = (x: number, y: number): number => x + y;
-const subFunc: MathF = (x: number, y: number): number => x - y;
-
-// Classes
-class Person {
-  private id: number;
-  name: string;
-  constructor(id: number, name: string) {
-    this.id = id;
-    this.name = name;
-  }
-}
-
-const Matt = new Person(9, "Matt");
-console.log(Matt.name);
-
-// Generics
-function getArray<T>(items: T[]): T[] {
-  return new Array().concat(items);
-}
-
-let numArr = getArray<number>([1, 2, 3, 4]);
-let strArray = getArray<string>(["tom", "tony", "bill"]);
+app.listen(PORT, () => console.log(`Server up and running on port ${PORT}`));
