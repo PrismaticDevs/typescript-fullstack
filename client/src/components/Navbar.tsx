@@ -5,8 +5,10 @@ function Navbar() {
     <nav>
       <ul>
         <li>
-          {/* <FaList style={{ fontSize: "2.5em" }} /> */}
-          <GiPlanetCore style={{ fontSize: "2.5em" }} />
+          {/* <FaList className="icon" style={{ fontSize: "2.5em" }} /> */}
+          <a href="/">
+            <GiPlanetCore className="icon" style={{ fontSize: "2.5em" }} />
+          </a>
         </li>
         <li>
           <a href="/">Home</a>
