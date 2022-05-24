@@ -1,13 +1,15 @@
-import { GiPlanetCore } from "react-icons/gi";
-// import { FaList } from "react-icons/fa";
+import img from "../img/prismatic-todos.png";
 function Navbar() {
   return (
     <nav>
       <ul>
-        <li>
-          {/* <FaList className="icon" style={{ fontSize: "2.5em" }} /> */}
+        <li className="img">
           <a href="/">
-            <GiPlanetCore className="icon" style={{ fontSize: "1.5em" }} />
+            <img
+              src={img}
+              style={{ height: 75, margin: -30, padding: 0 }}
+              alt="Prismatic Todos"
+            />
           </a>
         </li>
         <li>
