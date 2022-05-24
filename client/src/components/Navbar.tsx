@@ -7,7 +7,7 @@ function Navbar() {
         <li>
           {/* <FaList className="icon" style={{ fontSize: "2.5em" }} /> */}
           <a href="/">
-            <GiPlanetCore className="icon" style={{ fontSize: "2.5em" }} />
+            <GiPlanetCore className="icon" style={{ fontSize: "1.5em" }} />
           </a>
         </li>
         <li>
