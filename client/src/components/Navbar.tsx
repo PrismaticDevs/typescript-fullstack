@@ -1,7 +1,11 @@
+import { GiPlanetCore } from "react-icons/gi";
 function Navbar() {
   return (
     <nav>
       <ul>
+        <li>
+          <GiPlanetCore style={{ fontSize: "2.5em" }} />
+        </li>
         <li>
           <a href="/">Home</a>
         </li>
