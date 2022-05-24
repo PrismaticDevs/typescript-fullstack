@@ -33,9 +33,26 @@ nav li a:hover {
     color: gold;
 }
 
+.icon {
+    color: black;
+}
+
+.icon:hover {
+    opacity: 0.75;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
 .title {
     text-align: center;
     font-size: 2.5em;
+    margin: 0.5em;
 }
 
 @media only screen and (max-width: 400px) {
