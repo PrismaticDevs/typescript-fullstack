@@ -1,9 +1,11 @@
 import { GiPlanetCore } from "react-icons/gi";
+// import { FaList } from "react-icons/fa";
 function Navbar() {
   return (
     <nav>
       <ul>
         <li>
+          {/* <FaList style={{ fontSize: "2.5em" }} /> */}
           <GiPlanetCore style={{ fontSize: "2.5em" }} />
         </li>
         <li>
