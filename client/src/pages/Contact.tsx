@@ -10,7 +10,13 @@ const Contact = () => {
           style={{ display: "flex", justifyContent: "center" }}
         >
           <section className="contact-card">
-            <FaEnvelope className="icon" style={{ fontSize: "3em" }} />
+            <a
+              href="mailto:matthewbrignola@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaEnvelope className="icon" style={{ fontSize: "3em" }} />
+            </a>
             <h3>
               <a href="mailto:matthewbrignola@gmail.com">
                 matthewbrignola@gmail.com
@@ -18,7 +24,13 @@ const Contact = () => {
             </h3>
           </section>
           <section className="contact-card">
-            <FaGithub className="icon" style={{ fontSize: "3em" }} />
+            <a
+              href="http://github.com/prismaticdevs"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub className="icon" style={{ fontSize: "3em" }} />
+            </a>
             <h3>
               <a
                 href="http://github.com/prismaticdevs"
@@ -30,7 +42,9 @@ const Contact = () => {
             </h3>
           </section>
           <section className="contact-card">
-            <FaSlack className="icon" style={{ fontSize: "3em" }} />
+            <a href="https://media-gvn6693.slack.com">
+              <FaSlack className="icon" style={{ fontSize: "3em" }} />
+            </a>
             <h3>
               <a
                 href="https://media-gvn6693.slack.com"

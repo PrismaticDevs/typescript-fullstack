@@ -8,7 +8,8 @@ const Footer = () => {
         href="https://github.com/PrismaticDevs"
         title="PrismaticDevs GitHub"
       >
-        Primatic<a href="https://github.com/PrismaticDevs">Devs</a> 2022
+        Primatic<div className="devs">Devs</div>
+        <div style={{ marginLeft: "1em" }}> 2022</div>
       </a>
     </footer>
   );

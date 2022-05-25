@@ -1,8 +1,7 @@
-import { log } from "console";
 import express, { Application, Request, Response } from "express";
 import bodyParser from "body-parser";
-import { TaskController } from "./controller/task-controller";
-import { Task } from "./model/task";
+import { TaskController } from "./controller/TaskController";
+import { Task } from "./models/task";
 
 const PORT = 3001;
 const app: Application = express();

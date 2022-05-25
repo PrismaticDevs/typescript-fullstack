@@ -1,4 +1,4 @@
-import { Task } from "./../model/task";
+import { Task } from "../models/task";
 import { v4 as uuid } from "uuid";
 
 export class TaskController {

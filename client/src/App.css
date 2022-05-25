@@ -74,14 +74,20 @@ h5 {
     color: #18abf4;
     text-decoration: none;
     display: block;
+    display: flex;
+    justify-content: center;
 }
 
 #footer-link:hover {
-    color: #4504ea;
+    opacity: 0.5;
 }
 
 #footer-link a {
     text-decoration: none;
+}
+
+.devs {
+    color: #4504ea;
 }
 
 .page {
