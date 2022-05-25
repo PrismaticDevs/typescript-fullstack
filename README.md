@@ -35,3 +35,5 @@ Users can use the registration link to create an account, and then can log in to
 Github: [PrismaticDevs](https://github.com/PrismaticDevs) <br>
 Email: matthewbrignola@gmail.com <br>
 Phone: 719-351-5828 <br>
+
+![app](./client/src/img/prismatic-todos.png)
