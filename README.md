@@ -19,11 +19,11 @@ This is a full stack Typescript application that uses MongoDB on the back end an
 ## Technology
 
 <ul>
-    <li>Typescript</li>
+    <li>Typescript 4.6.3</li>
     <li>React 18</li>
-    <li>Express</li>
+    <li>Express 4.18.1</li>
     <li>MySQL</li>
-    <li>Sequelize</li>
+    <li>Sequelize 6.20</li>
 </ul>
 
 ## Usage
