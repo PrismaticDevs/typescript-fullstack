@@ -3,7 +3,7 @@ function Navbar() {
   return (
     <nav>
       <ul>
-        <li className="img">
+        <li className="img" style={{ marginRight: "2em" }}>
           <a href="/">
             <img
               src={img}

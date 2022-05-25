@@ -55,6 +55,7 @@ h5 {
     font-size: 2.5em;
     font-weight: 900;
     margin: 0.5em;
+    color: #18abf4;
 }
 
 .footer {
@@ -67,6 +68,76 @@ h5 {
     left: 0;
     width: 100%;
     text-align: center;
+}
+
+.page {
+    background-color: white;
+    width: 90vw;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    margin-bottom: 5em;
+    box-shadow: 0.25em 0.25em 0.25em 0.25em rgba(0, 0, 0, 0.25);
+}
+
+.paragraph {
+    text-indent: 2em;
+    padding-right: 3em;
+    padding-left: 3em;
+    margin: 0;
+}
+
+.contact-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.contact-card a {
+    color: #18abf4;
+}
+
+.contact-card a:hover {
+    color: #4504ea;
+}
+
+form {
+    height: 22rem;
+}
+
+form input,
+textarea {
+    padding: 1em;
+    margin: 0.25em;
+    border-radius: 1em;
+    border: solid #4504ea;
+    color: #4504ea;
+}
+
+::placeholder {
+    color: #18abf4;
+}
+
+form button {
+    padding: 0.5rem;
+    width: 10rem;
+    font-size: 2em;
+    margin: 0.5rem;
+    outline: none;
+    border: none;
+    background: #4504ea;
+    color: white;
+    box-shadow: 0 0.25em 0.25em 0 rgba(0, 0, 0, 0.25);
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #3d0db5;
+    padding: 0.4rem;
+    width: 9rem;
+    font-size: 1.75em;
 }
 
 @media only screen and (max-width: 400px) {
