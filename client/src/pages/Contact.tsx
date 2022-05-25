@@ -1,5 +1,5 @@
 import { FaGithub, FaEnvelope, FaSlack } from "react-icons/fa";
-import Email from "../components/Email";
+// import Email from "../components/Email";
 const Contact = () => {
   return (
     <>
@@ -10,7 +10,7 @@ const Contact = () => {
           style={{ display: "flex", justifyContent: "center" }}
         >
           <section className="contact-card">
-            <FaEnvelope style={{ fontSize: "3em" }} />
+            <FaEnvelope className="icon" style={{ fontSize: "3em" }} />
             <h3>
               <a href="mailto:matthewbrignola@gmail.com">
                 matthewbrignola@gmail.com
@@ -18,7 +18,7 @@ const Contact = () => {
             </h3>
           </section>
           <section className="contact-card">
-            <FaGithub style={{ fontSize: "3em" }} />
+            <FaGithub className="icon" style={{ fontSize: "3em" }} />
             <h3>
               <a
                 href="http://github.com/prismaticdevs"
@@ -30,7 +30,7 @@ const Contact = () => {
             </h3>
           </section>
           <section className="contact-card">
-            <FaSlack style={{ fontSize: "3em" }} />
+            <FaSlack className="icon" style={{ fontSize: "3em" }} />
             <h3>
               <a
                 href="https://media-gvn6693.slack.com"
@@ -43,7 +43,7 @@ const Contact = () => {
           </section>
         </article>
         <br />
-        <Email />
+        {/* <Email /> */}
       </section>
     </>
   );

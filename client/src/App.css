@@ -35,11 +35,11 @@ nav li a:hover {
 }
 
 .icon {
-    color: black;
+    color: #4504ea;
 }
 
 .icon:hover {
-    opacity: 0.75;
+    opacity: 0.5;
 }
 
 h1,
@@ -68,6 +68,20 @@ h5 {
     left: 0;
     width: 100%;
     text-align: center;
+}
+
+#footer-link {
+    color: #18abf4;
+    text-decoration: none;
+    display: block;
+}
+
+#footer-link:hover {
+    color: #4504ea;
+}
+
+#footer-link a {
+    text-decoration: none;
 }
 
 .page {

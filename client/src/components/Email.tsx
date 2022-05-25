@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 const Email = () => {
-  //   const form = React.useRef<HTMLFormElement>();
+  const form = useRef<HTMLFormElement>();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
