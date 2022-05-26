@@ -14,46 +14,33 @@ const Contact = () => {
               href="mailto:matthewbrignola@gmail.com"
               target="_blank"
               rel="noreferrer"
+              style={{ textAlign: "center" }}
             >
               <FaEnvelope className="icon" style={{ fontSize: "3em" }} />
+              <h3>matthewbrignola@gmail.com</h3>
             </a>
-            <h3>
-              <a href="mailto:matthewbrignola@gmail.com">
-                matthewbrignola@gmail.com
-              </a>
-            </h3>
           </section>
           <section className="contact-card">
             <a
               href="http://github.com/prismaticdevs"
               target="_blank"
               rel="noreferrer"
+              style={{ textAlign: "center" }}
             >
               <FaGithub className="icon" style={{ fontSize: "3em" }} />
+              <h3>github.com/PrismaticDevs</h3>
             </a>
-            <h3>
-              <a
-                href="http://github.com/prismaticdevs"
-                rel="noreferrer"
-                target="_blank"
-              >
-                github.com/PrismaticDevs
-              </a>
-            </h3>
           </section>
           <section className="contact-card">
-            <a href="https://media-gvn6693.slack.com">
+            <a
+              href="https://media-gvn6693.slack.com"
+              target="_blank"
+              rel="noreferrer"
+              style={{ textAlign: "center" }}
+            >
               <FaSlack className="icon" style={{ fontSize: "3em" }} />
+              <h3>send us a message on Slack</h3>
             </a>
-            <h3>
-              <a
-                href="https://media-gvn6693.slack.com"
-                rel="noreferrer"
-                target="_blank"
-              >
-                send a message on Slack
-              </a>
-            </h3>
           </section>
         </article>
         <br />
