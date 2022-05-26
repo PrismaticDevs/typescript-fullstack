@@ -5,10 +5,7 @@ const Contact = () => {
     <>
       <section className="page">
         <div className="title">Contact</div>
-        <article
-          className="paragraph"
-          style={{ display: "flex", justifyContent: "center" }}
-        >
+        <article className="paragraph">
           <section className="contact-card">
             <a
               href="mailto:matthewbrignola@gmail.com"
