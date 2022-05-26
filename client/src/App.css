@@ -123,41 +123,49 @@ h5 {
 }
 
 form {
-    height: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-form input,
-textarea {
+.form_input {
     padding: 1em;
     margin: 0.25em;
+    margin-left: 3rem;
     border-radius: 1em;
     border: solid #4504ea;
     color: #4504ea;
+    height: 8vh;
+    width: 86%;
+    font-size: 1.5em;
 }
 
 ::placeholder {
     color: #18abf4;
 }
 
-form button {
-    padding: 0.5rem;
-    width: 10rem;
+.input_submit {
+    width: 4rem;
     font-size: 2em;
-    margin: 0.5rem;
+    margin: auto;
     outline: none;
     border: none;
-    background: #4504ea;
-    color: white;
-    box-shadow: 0 0.25em 0.25em 0 rgba(0, 0, 0, 0.25);
+    background: none;
+    color: #18abf4;
     border-radius: 1em;
     cursor: pointer;
+    position: absolute;
+    margin-left: 85%;
 }
 
-form button:hover {
-    background: #3d0db5;
+.input_submit:hover {
     padding: 0.4rem;
-    width: 9rem;
     font-size: 1.75em;
+}
+
+.form_input:focus {
+    box-shadow: 0 0 1vh 80vh rgba(0, 0, 0, 0.25);
+    outline: none;
 }
 
 @media only screen and (max-width: 400px) {
