@@ -31,6 +31,7 @@ function Navbar() {
       </a>
       <FaBars
         style={{ color: "#4504ea", float: "right" }}
+        className="bars"
         onClick={() => setHamburger(!hamburger)}
       />
       {hamburger ? (

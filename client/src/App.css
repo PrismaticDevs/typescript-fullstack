@@ -9,6 +9,9 @@ body {
     background-color: rgb(250, 250, 250);
 }
 
+
+/* Nav */
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -59,6 +62,9 @@ h5 {
     margin: 0.5em;
     color: #18abf4;
 }
+
+
+/* Footer */
 
 .footer {
     margin-top: 1rem;
@@ -111,6 +117,9 @@ h5 {
     justify-content: center;
 }
 
+
+/* Contact elements */
+
 .contact-card {
     display: flex;
     justify-content: center;
@@ -126,6 +135,9 @@ h5 {
 .contact-card a:hover {
     color: #4504ea;
 }
+
+
+/* Form elements */
 
 form {
     display: flex;
@@ -177,15 +189,51 @@ form {
     display: block;
 }
 
+
+/* Bars */
+
+.bars {
+    animation: grow 2s ease-in;
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/* Hamburger */
+
 .hamburger {
     list-style-type: none;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
     margin-top: -1.25em;
+    animation: fadeIn 1s ease-in;
 }
 
 .hamburger a {
     text-decoration: none;
     color: #18abf4;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        font-size: 0;
+    }
+    50% {
+        font-size: 1em;
+    }
+    100% {
+        opacity: 1;
+    }
 }
