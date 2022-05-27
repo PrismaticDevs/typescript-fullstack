@@ -96,7 +96,6 @@ h5 {
     background-color: white;
     width: 90vw;
     padding-bottom: 2em;
-    margin-bottom: 5em;
     box-shadow: 0.25em 0.25em 0.25em 0.25em rgba(0, 0, 0, 0.25);
     margin: 0 auto;
     margin-bottom: 6em;
@@ -137,13 +136,17 @@ form {
 .form_input {
     padding: 1em;
     margin: 0.25em;
-    margin-left: 3rem;
     border-radius: 1em;
     border: solid #4504ea;
     color: #4504ea;
-    height: 8vh;
+    height: 5vh;
     width: 86%;
     font-size: 1.5em;
+}
+
+.form_input:focus {
+    box-shadow: 0 0 1vh 80vh rgba(0, 0, 0, 0.25);
+    outline: none;
 }
 
 ::placeholder {
@@ -169,18 +172,20 @@ form {
     font-size: 1.75em;
 }
 
-.form_input:focus {
-    box-shadow: 0 0 1vh 80vh rgba(0, 0, 0, 0.25);
-    outline: none;
+.mobile-menu {
+    padding: 1em;
+    display: block;
 }
 
-@media only screen and (max-width: 800px) {
-    nav ul {
-        display: block;
-    }
-    .paragraph {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+.hamburger {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: -1.25em;
+}
+
+.hamburger a {
+    text-decoration: none;
+    color: #18abf4;
 }
