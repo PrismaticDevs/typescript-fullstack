@@ -14,7 +14,6 @@ function Navbar() {
   const resizeWindow = () => {
     setWidth(window.innerWidth);
     width < 700 ? setMobile(true) : setMobile(false);
-    console.log(width, mobile);
   };
   useEffect(() => {
     checkWindow();
