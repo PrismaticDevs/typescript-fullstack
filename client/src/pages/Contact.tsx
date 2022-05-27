@@ -7,7 +7,6 @@ const Contact = () => {
   const resizeWindow = () => {
     setWidth(window.innerWidth);
     width < 800 ? setMobile(true) : setMobile(false);
-    console.log(width, mobile);
   };
   useEffect(() => {
     resizeWindow();
