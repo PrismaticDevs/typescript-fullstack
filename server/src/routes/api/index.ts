@@ -1,6 +1,8 @@
-const router = require("express").Router();
-const taskRoutes = require("./taskRoutes");
+import { appendFile } from "fs";
 
-router.use("/tasks", taskRoutes);
+const router = require("express").Router();
+const todoRoutes = require("./todoRoutes");
+
+router.use("/todos", todoRoutes);
 
 module.exports = router;

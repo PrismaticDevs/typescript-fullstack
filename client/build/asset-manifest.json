@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.11839731.css",
-    "main.js": "/static/js/main.369a20fa.js",
+    "main.css": "/static/css/main.b191c990.css",
+    "main.js": "/static/js/main.96985d88.js",
     "static/media/prismatic-todos.png": "/static/media/prismatic-todos.b64e161ffcc6c784c8a2.png",
     "index.html": "/index.html",
-    "main.11839731.css.map": "/static/css/main.11839731.css.map",
-    "main.369a20fa.js.map": "/static/js/main.369a20fa.js.map"
+    "main.b191c990.css.map": "/static/css/main.b191c990.css.map",
+    "main.96985d88.js.map": "/static/js/main.96985d88.js.map"
   },
   "entrypoints": [
-    "static/css/main.11839731.css",
-    "static/js/main.369a20fa.js"
+    "static/css/main.b191c990.css",
+    "static/js/main.96985d88.js"
   ]
 }
