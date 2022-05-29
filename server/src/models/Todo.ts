@@ -1,8 +1,8 @@
 import { sequelize } from "../config/config";
-import { Model } from "sequelize";
+import { Model, UUID, DataTypes } from "sequelize";
 
 type TodoAttributes = {
-  id: number;
+  id: any;
   todo: string;
   completed: boolean;
 };

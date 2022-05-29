@@ -5,10 +5,10 @@ import { Todo } from "../models/Todo";
 module.exports = {
   createTodo: async (req: Request, res: Response) => {
     const { todo, completed } = req.body;
-    // await Todo.create({
-    //   id: DataTypes.UUIDV4,
-    //   todo,
-    //   completed,
-    // });
+    await Todo.create({
+      id: DataTypes.UUID,
+      todo: todo,
+      completed: completed,
+    });
   },
 };
