@@ -1,23 +1,14 @@
-const { Model, DataTypes, UUIDV4 } = require("sequelize");
-const sql = require("../config");
+import { sequelize } from "../config/config";
+import { Model } from "sequelize";
 
-class Todo extends Model {}
+type TodoAttributes = {
+  id: number;
+  todo: string;
+  completed: boolean;
+};
 
-Todo.init({
-  id: {
-    type: DataTypes.UUID,
-    defaultValue: UUIDV4,
-    primaryKey: true,
-    allowNull: false,
-  },
-  todo: {
-    type: DataTypes.TEXT,
-    allowNull: false,
-  },
-  completed: {
-    type: DataTypes.BOOLEAN,
-    defaultValue: false,
-  },
-});
-
-export default Todo;
+export class Todo extends Model<TodoAttributes> {
+  declare id: string;
+  declare todo: string;
+  declare completed: boolean;
+}
