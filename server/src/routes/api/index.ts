@@ -1,8 +1,7 @@
-import { appendFile } from "fs";
+import { todoRouter } from "./todoRoutes/index";
+import { Router } from "express";
+const router = Router();
 
-const router = require("express").Router();
-const todoRoutes = require("./todoRoutes");
+// router.use("/todos", todoRouter);
 
-router.use("/todos", todoRoutes);
-
-module.exports = router;
+export { router as api };

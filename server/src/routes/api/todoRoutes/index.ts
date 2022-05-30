@@ -1,4 +1,5 @@
 import { Router } from "express";
-const router: Router = require("express").Router();
-
-module.exports = router;
+import { getAllTodos } from "../../../controller/TodoController";
+const router = Router();
+const todoRouter = router.route("/todos").get(getAllTodos);
+export { todoRouter };
