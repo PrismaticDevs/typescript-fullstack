@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { UUIDV4 as UUID, DataTypes } from "sequelize/types";
+import { DataTypes } from "sequelize/types";
 import { Todo } from "../models/Todo";
 
 export const getAllTodos = async (req: Request, res: Response) => {

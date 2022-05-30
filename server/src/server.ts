@@ -2,7 +2,7 @@ import "dotenv/config";
 import express from "express";
 import bodyParser from "body-parser";
 import { sequelize } from "./config/config";
-import { router } from "./routes/router";
+import { router } from "./routes/index";
 
 const PORT = 3001;
 const app = express();
